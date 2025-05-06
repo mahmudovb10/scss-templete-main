@@ -1,0 +1,98 @@
+.header {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  background-image: url(../images/pattern-light-bg.svg);
+}
+.header__container .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 4.8rem;
+}
+.site__logo :hover {
+  opacity: 0.8;
+}
+.site__logo__image {
+}
+
+@media screen and (max-width: 996px) {
+  .header__hero .container {
+    flex-direction: column;
+  }
+
+  .header__hero__content {
+    margin-bottom: 3.2rem;
+  }
+
+  .headrd__hero__image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 650) {
+  .header__hero__title {
+    font-size: $font-1-m;
+    line-height: $lh-1-m;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  header {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.header__hero .container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container {
+}
+.header__hero__content {
+}
+.header__hero__title {
+  font-family: $font-1;
+  /* Main Heading */
+
+  width: 570px;
+  height: 222px;
+
+  /* Text Preset 1 */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  /* or 74px */
+  letter-spacing: -2px;
+
+  background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 2.4rem;
+  line-height: $lh-1;
+  margin-bottom: 3.2rem;
+}
+.header__hero__description {
+  font-size: $font-5;
+  line-height: $lh-5;
+}
+.headrd__hero__image {
+  border-radius: 1.2rem;
+}

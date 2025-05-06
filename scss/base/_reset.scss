@@ -26,13 +26,25 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-main {
-  flex-grow: 1;
+  font-family: $main--ff;
 }
 h1 {
   margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary--ff;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .container {
   width: 100%;
   max-width: 1200px; // Bu o'zgaruvchan.
@@ -41,6 +53,10 @@ h1 {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-// margin, padding, border-radius, font-size, gap, -> rem;
-// width, heightni -> max va pxda bering.
-// line-height -> lh / font-size qilib bering.
+
+@media screen and (max-width: 768) {
+  .container {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
