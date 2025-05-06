@@ -21,7 +21,7 @@
   }
 
   .header__hero__content {
-    margin-bottom: 3.2rem;
+    margin-bottom: 6.4rem;
   }
 
   .headrd__hero__image {
@@ -34,6 +34,11 @@
 @media screen and (max-width: 768px) {
   header {
     margin-bottom: 3.2rem;
+  }
+  .header__hero__title {
+    width: 704px;
+    height: 222px;
+    padding-left: 32px;
   }
 }
 
@@ -52,6 +57,11 @@
 
   header {
     margin-bottom: 2.4rem;
+  }
+  .header__hero__title {
+    width: 343px;
+    height: 138px;
+    padding-left: 16px;
   }
 }
 
