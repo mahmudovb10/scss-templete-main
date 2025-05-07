@@ -3,6 +3,8 @@
   padding-bottom: 3.2rem;
   background-image: url(../images/pattern-light-bg.svg);
 }
+.site__container {
+}
 .header__container .container {
   display: flex;
   align-items: center;
@@ -143,6 +145,7 @@
 
 .section__content {
   display: flex;
+  flex-direction: row;
 }
 .check__icon {
 }
@@ -170,10 +173,10 @@
 
   .section__title {
     width: 100%;
-    max-width: 704px;
+    max-width: 70.4rem;
     height: auto;
     line-height: $lh-5;
-    padding-top: 8rem;
+    padding-top: -3rem;
     padding-left: 2rem;
   }
   .section__check {
@@ -351,6 +354,7 @@
 }
 
 .site__store {
+  margin-left: -160px;
 }
 .site__subcribe__card {
 }
